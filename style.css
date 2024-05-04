@@ -36,7 +36,7 @@ header h1 {
 
 .btn {
   border-radius: 6px;
-  background: rgb(0, 143, 168);
+  background: #1f066c;
   color: white;
   font-size: 15px;
   padding: 10px 20px 10px 20px;
@@ -48,7 +48,7 @@ header h1 {
 }
 
 .btn:hover {
-  background: rgb(0, 169, 199);
+  background: #330aad;
   color: white;
 }
 
@@ -66,17 +66,35 @@ header h1 {
   border: 1.5px solid black;
   border-radius: 6px;
   font-size: 16px;
-  background: transparent;
+  background: rgb(0, 143, 168);
+  color: white;
   cursor: pointer;
   transition-duration: 0.2s;
 }
 
+.currency select:hover {
+  background: rgba(0, 169, 199, 1);
+}
+
+/* .currency select:focus {
+  background: white;
+  color: black;
+  transition-duration: 0s;
+} */
 
 .currency input {
   border: 0;
-  background: transparent;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.3);
   font-size: 30px;
   text-align: left;
+  margin-right: 20px;
+  padding: 4px 0 4px 10px;
+  max-width: 250px;
+}
+
+.currency input:hover, .currency input:focus {
+  background: rgba(255,255,255,0.5);
 }
 
 .swap-rate-container{
@@ -88,7 +106,7 @@ header h1 {
 .rate {
   color: #1f066c;
   font-size: 20px;
-  padding: auto;
+  padding: 0 0 0 10px;
 }
 
 select:focus,
