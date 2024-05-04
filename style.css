@@ -119,3 +119,13 @@ input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button {
   appearance: none;
 }
+
+@media only screen and (max-width: 431px) {
+  .currency input {
+    max-width: 150px;
+  }
+
+  .rate {
+    font-size: 15px;
+  }
+}
